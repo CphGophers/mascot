@@ -9,7 +9,7 @@ Notes
 
 Converting png output from Inkscape to a square image, padded with white:
 
-    gm convert source.png -thumbnail '1150x1150>' -background white -gravity center -extent 1150x1150 new.png
+    gm convert source.png -thumbnail '1150x1150>' -background transparent -gravity center -extent 1150x1150 new.png
 
 Finally, tidy up with `pngquant` or such.
 
