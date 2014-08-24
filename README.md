@@ -13,4 +13,7 @@ Converting png output from Inkscape to a square image:
 
 Finally, tidy up with `pngquant` and `pngcrush`.
 
+License
+-------
 
+Creative Commons Attribution 3.0
